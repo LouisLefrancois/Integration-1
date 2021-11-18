@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+}
+
+
+/******** card *********/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 697px;
+    width: 28rem;
+    background: white;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    margin: 0px 10px;
+    box-shadow: 0px 40px 50px 0px hsl(228, 100%, 88%);
+    border-radius: 20px;
+}
+
+.cardImg1 {
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    position: relative;
+    top: 27px;
+    font-size: 26px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+h2 {
+    font-weight: 900;
+    width: 100px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+
+/******** firstPart *********/
+
+.firstPart {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.firstPart p {
+    position: relative;
+    line-height: 25px;
+    top: 45px;
+}
+
+
+/********** secondPart **********/
+
+.secondPart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    height: 60px;
+    margin: 0px 50px;
+    padding: 20px 30px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.cardImg2 {
+    height: 50px;
+    width: 50px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0px 20px;
+}
+
+.change {
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.change a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+
+/********** proceed (button) **********/
+
+button {
+    position: relative;
+    top: 85px;
+    margin: 0 50px 0 50px;
+    padding: 15px 30px;
+    background-color: hsl(245, 75%, 52%);
+    color: whitesmoke;
+    font-weight: 900;
+    border-radius: 15px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0px 20px 30px hsl(230, 100%, 90%);
+}
+
+
+/********** cancel **********/
+
+.cancel {
+    position: relative;
+    top: 93px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding: 25px 0 40px 0;
+}
+
+.cancel a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+/********** hover **********/
+
+.cancel a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.change a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+
+/********** attribution **********/
+
+.attribution {
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
